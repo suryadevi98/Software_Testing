@@ -1,0 +1,44 @@
+ 
+ Actions
+ =======
+
+        Action - Interface , Actions - class
+
+   * It is a Class
+   
+   * It performs the mouse and keyboard actions.
+
+ Syntax
+ ======
+
+       Actions objname = new Actions(driver);
+
+ Mouse based Actions
+ ===================
+
+ click[webelement] - Clicks at current mouse location.
+
+ contextclick[webelement] - Performs Right Click.
+
+ doubleclick[webelement] - Performs double click.
+
+ moveToElement[webelement] - moves the mouse pointer from one element to other element.
+
+ dragAndDrop[webelement source, webelement Target] - drags the element from one point and drops in another point.
+
+ clickAnHold[webelement] - Performs long click and holds without releasing it.
+
+ release() - To release an element that has been in hold by the mouse.
+
+ For mouse based actions methods
+ ===============================
+
+ IMP - We must give build() and perform().
+
+ build() - all the actions gathered which are ready to the performed.
+
+ perform() - perform a sequence of actions.
+
+============================================================================================
+
+ 

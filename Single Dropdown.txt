@@ -1,0 +1,39 @@
+
+ DropDown
+ ========
+
+  Dropdown is a webelement where user can select a value from multiple values/options listed in the dropdown.
+
+       Single dropdown
+       
+       Multiple dropdown
+
+
+How to handle
+=============
+
+Dropdowns are handled by using "Select" class.
+
+The elements are declared in dom under <select> tag.
+
+
+Select
+======
+
+      Select is a Class.
+
+Select Methods
+==============
+
+       selectByValue("") - selects option by it's value.
+
+       selectByIndex()   - selects options by it's index.
+
+       selectByVisibleText("") - selects option by it's visible text.
+
+Syntax
+======
+
+    Select refname = new Select(Webelement);
+    refname.selectByValue("").
+==========================================================================================

@@ -1,0 +1,37 @@
+
+ Xpath
+ =====
+
+Relative xpath - //
+
+Absolute xpath - /
+
+Dynamic xpath 
+
+
+Syntax
+======
+
+//(tagname[@attribute name='attributevalue'])[99]
+
+//input[@id='email']
+
+ 
+
+
+//tagname[text()='fulltext']   -> text
+//a[text()='Create a Page']
+
+
+//tagname[contains(@attributename,'half of the attribute value')]
+ 	
+//input[contains(@placeholder,'Email')]
+
+
+//tagname[contains(text(),'half of the text']  ->  half of the text
+//h2[contains(text(),'Facebook helps you')]
+
+(//tagname[contains(@attributename,'half of the text')])[1]  
+
+Create new account
+

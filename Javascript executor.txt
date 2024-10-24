@@ -1,0 +1,70 @@
+
+ Scroll up and Down
+ ==================
+
+  To scroll using selenium, you can use JavaScriptExecutor (interface) that helps to execute javascript methods.
+
+  JavaScriptExecutor is an Interface which allows us to execute javasscript from selenium script.
+
+ Syntax
+ ======
+
+ JavaScriptExecutor js = (JavaScriptExecutor) driver; //narrowing
+
+ js.executeScript(Script,arguments);
+
+
+ Methods
+ =======
+	
+  1. To scroll the webpage by pixels/Range
+     =====================================
+
+  JavaScriptExecutor js = (JavaScriptExecutor) driver; //narrowing typecasting
+  js.executeScript("window.scrollBy(0,800);");
+
+
+ 2. To scroll to bottom of the page
+    ===============================
+
+  js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+
+
+ 3. To scroll the webpage by the visibility of the specific webelement
+    ==================================================================
+
+  js.executeScript("arguments[0].scrollIntoView();",webelement);
+
+
+ Syntax
+ ======
+
+    JavaScriptExecutor js = (JavaScriptExecutor) driver; //narrowing
+
+    js.executeScript("argument[0].scrollIntoView();",webelement);
+
+    js.executeScript("window.scrollBy(0,range);");
+
+ Example
+ =======
+
+        js.executeScript("window.scrollBy(0,3000);"); -> scroll down
+
+        js.executeScript("window.scrollBy(0,-1200);"); -> scrool up
+
+        js.executeScript("argument[0].scrollIntoView();",webelement);  -> click
+
+==========================================================================================================================
+
+
+ 
+
+
+    
+
+
+
+    
+
+  
+

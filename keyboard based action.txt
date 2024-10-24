@@ -1,0 +1,39 @@
+ 
+ Keyboard based action
+ =====================
+
+ Robot Class : (AWT)
+ ===========
+
+     It can be used to trigger the input keyboard and mouse events 
+
+     like mouse move, mouse click, keypress AND Key release.
+
+ Keyevent
+ ========
+
+    It Is a class and it performs the keyboard Function.
+
+ -> it is a part of Java api awt package. [AWK - Abstract Window Toolkit]
+
+ Syntax
+ ======
+
+     Robot ref = new Robot();
+
+    ref.keyPress(keyEvent.anyfunction)
+    
+    ref.keyRelease(keyEvent.anyfunction) 
+
+ Example
+ =======
+  
+   ref.keypress(keyEvent.VK_Down);
+
+   ref.keyRelease(keyEvent.VK_Down);
+
+ keyevent - class - enum
+
+=======================================================
+
+==============================================================================================

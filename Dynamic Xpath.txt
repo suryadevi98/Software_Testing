@@ -1,0 +1,55 @@
+
+ Dynamic Xpath
+ =============
+ 
+           RelationShips
+           =============
+
+  Preceding            following
+
+  Parent               Child
+
+  Precedingsibiling    following sibling
+
+  Ancestor             descendants
+
+  
+ (//span[@class='product-strike'])[1]//preceding-sibling::span
+
+(//div[@class='product-productMetaInfo'])[2]//following::span[@class='product-discountedPrice'][1]
+
+(//div[@class='product-productMetaInfo'])[2]//descendant::span[@class='product-discountedPrice']
+
+(//div[@class='product-productMetaInfo'])[2]//descendant::span[@class='product-discountedPrice']
+
+
+
+============================
+
+
+<gstn.shastri_v@vwo.com>
+
+
+Wingify Software Pvt. Ltd. Hiring team <no-reply@kekamail.com>
+
+
+TestGorilla <hello@testgorilla.com>
+
+
+ranjith.mayilvelan@indiumsoft.com
+
+hiringautomation.team@nagarro.com
+
+<muthulr@summitworks.in>
+
+
+shepsiba@spearheadtech.io
+
+shiyam.jayalakshmi@kaaylabs.com
+
+rama.ramasubbu@taodigitalusa.com
+
+
+https://ats.uplers.com/talent/all-opportunities/HR220824104719
+
+https://screener.hyring.com/jobseeker/ai-interview/rules-tips?interviewId=bdfe51e0-5904-406a-9a40-c5f7c3e77fee

@@ -1,0 +1,72 @@
+
+
+ Alert  (Popup, Webpage, Alert)
+ =====
+
+ * An Alert is a small message box which gives the user some information or notification.
+
+ * It asks for accept or dismiss or to pass same information.
+
+
+            * It is a Interface
+  
+            * It is a Non-inspect
+
+
+ Types
+ =====
+
+      * Simple alert
+     
+      * Confirm alert
+
+      * prompt alert
+
+  
+ If alert is present we must switch to that alert driver.switchTo().alert();
+
+
+ Alert Methods
+ =============
+
+            * accept() - ok
+
+            * dismiss() - cancel
+
+            * sendkeys()
+
+            * gettext()
+
+ Simple Alert
+ ============
+
+   * It display some information (or) warning in screen
+
+   * This popup has only a accept button.
+
+ Confirm Alert
+ =============
+
+   * It has a popup of both accept [ok] and dismiss [cancel] button.
+
+   * We can accept for ok button.
+   
+   * We use dismiss for cancel button.
+
+ Prompt Alert
+ ============
+
+   * It shows a message the user to send input 
+  
+   * Alert it returns the text we can accept or dismiss button.
+========================================================================================================= 
+
+
+
+
+
+
+
+
+
+  

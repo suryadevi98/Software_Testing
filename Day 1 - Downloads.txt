@@ -1,0 +1,69 @@
+
+Selenium
+========
+
+ It is a Automation Testing Tool (Web Application)
+
+ Json Huggins - 2004
+
+QTP -> windows -> Hp -> quick test professional (uft -> manual then write script) many draw back -> Qtp is a commercial -> licence -> pay, it runs only one oprating system
+
+Selenium 
+=========
+
+ * open source
+ * it is used multiple oprating sysytem
+ * it is a free of cost
+
+Version 3.141.59
+
+Selenium Components:
+===================
+
+   * Selenium IDE
+   * Selenium Rc
+   * Selenium Webdriver  ***
+   * Selenium Grid
+
+Selenium IDE
+============
+
+ * IDE -> Integrated Development Environment
+ * It can be used only in Firefox
+ * We cannot be used for compilement test cases.
+
+Selenium Rc
+===========
+
+ * RC -> Remote control
+ * In Rc the installations are complicated
+ * It cannot Directly Interact with Browser
+
+  RC - 2011, Selenium Webdriver - 2012
+
+Selenium Webdriver
+==================
+
+ * It is a automation testing framework
+ * It supports Different Browsers along with Diffreent kind of programming language.
+ * It Directly Interact with Browser. ( our program runs only one browser at a time)
+
+Selenium Grid
+=============
+
+ * It is a Hubnode Concept
+ * It execute Test cases parallely and it reduces the execute time. (It runs at a time multiple Browser)
+
+         
+Browser Launch
+==============
+
+                       Chrome                       IE                    Firefox
+
+Drivername       webdriver.chrome.driver     webdriver.ie.driver      webdriver.gecko.driver
+ 
+
+Filename         chromedriver.exe           IEdriverserver.exe       geckodriver.exe
+
+
+Classname        chromedriver()             InternetExploreDriver()  firefoxdriver()

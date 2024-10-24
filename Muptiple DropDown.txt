@@ -1,0 +1,57 @@
+
+ Multiple Dropdown
+ =================
+
+   To select Multiple Values from Dropdown.
+
+
+ isMultiple()
+ ============
+
+     To check the dropdown is single or multiple
+
+ getoptions()
+ ============
+
+       It will get all the options/values in the dropdown
+
+       Its return type is List<webelement>
+
+ getAllselectedOptions()
+ =======================
+
+       It will get all the selected options in dropdown.
+
+       Its return type is List<webelement>
+
+ getFirstSelectedOptions()
+ =========================
+
+       It will return the first selected options in dropdown.
+  
+       Its return type is webelement.
+ 
+       It will accept in single Dropdown.
+
+ deSelectByValue()
+ =================
+
+       To deselect options by it's value
+
+ deSelectByIndex()
+ =================
+
+      To deselect options by it's index.
+
+ deSelectByVisibleText()
+ =======================
+
+      To deselect options by its value
+
+ deSelectAll()
+ =============
+  
+      To deselect all the selected options.
+
+      It won't accept in single dropdown
+===================================================================================

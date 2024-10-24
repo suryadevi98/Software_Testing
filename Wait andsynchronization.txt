@@ -1,0 +1,72 @@
+
+  wait or synchronization   
+  =======================
+
+
+  Implicit wait  - Global wait
+  =============
+
+     * It will tell to the webdriver to wait for a certine time.
+
+     * before throwing no such element exception.
+ 
+     * An implicit wait sets a default wait time for the entire life of the WebDriver instance. If a web element is not immediately available, the WebDriver will 
+  wait up to the specified time before throwing a NoSuchElementException.
+
+ 
+ Syntax
+ ======
+
+  driver.manage().timeouts.implicitlywait(30, TimeUnit.SECONDS);  -> 3.141
+
+  driver.manage().timeouts.implicitlywait(Duration, ofseconds(30)); -> 4.1
+
+
+ Explicit wait
+ =============
+   
+   *  It will tell to the webdriver to wait for a cenrtain conditions (or) maximum time before, throwing Element not visible exceptions.
+   *  Explicit waits allow you to define a specific condition to wait for. You can use them to wait for a particular condition to be true before proceeding. 
+ This is often used for waiting for elements to be clickable, visible, or present.
+
+ Syntax
+ ======
+   
+   //class
+
+    
+     WebDriverWait wait = new WebDriverWait (driver,30);
+
+     Wait.until(ExpectedCondiions.VisibilityOf(webelement)); -> 3.141
+
+     WebDriverWait wait = new WebDriverWait(driver.Duration.Ofnanos(20));
+
+     Wait.until(ExpectedCondition.VisibilityOf(drop)); -> 4.1.1
+
+
+ Fluent Wait
+ ===========
+ 
+     * It will tell to the WebDriver to wait for a condition as well a Frequency.
+     
+     * Extends explicit waits with additional options for polling and exception handling.
+
+       Frequency -> Reqular interval of time.
+
+ Syntax
+ ======
+
+    wait wait1 = new Fluentwait(driver).withtimeout(30,Timeunit.SECONDS).pollingEvery(s, Timeunit.SECONDS).ignoring(Exception class);
+
+
+ Differences
+ ===========
+
+    Implicit wait                                 Explicit wait                           
+    =============                                 =============
+
+ Applicable for all elements                   Applicable for only that particular Element
+
+ no specific conditions                        separate conditions
+
+thread.sleep - static  - milli second

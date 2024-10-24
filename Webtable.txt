@@ -1,0 +1,77 @@
+
+ WebTable
+ ========
+
+   A Table present in the webpage is called webtable.
+
+ Types
+ =====
+
+  1. static Webtable
+  
+  2. Dynamic webtable
+
+
+ WebTable DOM structre
+ =====================
+
+       <table>
+           <tbody>
+             <tr>
+                 <th>
+             </tr>
+            </tbody>
+               <tr>
+                    <td>
+                    </td>
+               </tr>
+            </tbody>
+            </table>
+
+    
+      tr = Table row , th = Table heading, td = Table data
+
+
+ Methods
+ =======
+
+         All Data  :  //table/tbody/tr/td
+
+         Row Data  :  //table/tbody/tr[rowIndex]/td
+
+         Column Data  : //table/tbody/tr/td[columnIndex]
+
+         Particular Data : //table/tbody/tr[rowIndex]/td[colIndex]
+ 
+         Header  : by.tagname("th")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

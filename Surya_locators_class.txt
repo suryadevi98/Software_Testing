@@ -1,0 +1,54 @@
+locators
+========
+
+id
+name
+className
+xpath
+css selector
+linked Text
+partial linked Text
+Tag name
+
+
+xpath :
+
+Relative xpath----------------> //input[@id='fname']
+absolute xpath/
+dynamic xpath
+
+//tagName[@attributeName='"attributeValue']
+
+
+/html/body/div[2]/div/div/main/article/div/div/div[1]/form[1]/input[1]
+//*[@id='male']
+
+((/html/body/div)[2]/div/div/main/article/div/div/div/p)[2]/input
+//input[@id='fname']
+/html/body/div[2]/div/div/main/article/div/div/div[1]/p[2]/input
+//*[@id="fname"]
+
+dynamic xpath 
+===================
+combination of Absolute xpath + Relative xpath
+
+//*[@id="fname"]/div/input
+
+//div[@class='_4rR01T']/parent::div/parent::div/preceding-sibling::div/parent::a/parent::div/parent::div/parent::div/parent::div[@class='_1AtVbE col-12-12']
+
+//div[contains(text(),'Pink, 5')]/parent::div/following-sibling::div/div/div/div[contains(@class,'WHN1')]
+
+//div[contains(text(),'Pink, 5')]/parent::div/descendant::div[contains(@class,'WHN1')]
+
+
+Apple iPhone 13 (Pink, 512 GB)
+Apple iPhone 13 (Midnight, 512 GB)
+
+text()
+
+@id
+//tagName[text()='Apple iPhone 13 (Midnight, 512 GB)']
+//div[contains(text(),'Midnight'))]
+//div[contains(@class,'')]
+
+/..

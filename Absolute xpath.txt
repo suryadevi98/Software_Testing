@@ -1,0 +1,41 @@
+
+ Absolute X-path
+ ===============
+
+  * It starts with single forward slash (/)
+
+  * It starts from html tag (Root Tag)
+
+ Example
+ =======
+      
+        /html/body/div[2]/div[1]/div/h4[1]/b[1]
+
+   <html> -> open   , </html> -> close
+
+
+  Example:
+  =======
+
+ facebook
+ ========
+
+ email : /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input
+ password : /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[2]/div/input
+
+login : /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button
+
+
+========================================================================
+ 
+ Dynamic X-path
+ ==============
+
+
+    preceding             following
+
+    parent                child
+
+    preceding sibling     following sibling
+
+    Ancestor              decendants

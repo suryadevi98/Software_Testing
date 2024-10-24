@@ -1,0 +1,43 @@
+
+ Screenshot
+ ==========
+
+ * A screenshot in selenium webdriver is used for defect analysis.
+ 
+ * To provide some visual representation (image format) for the bug we try to report.
+
+ * To capture a screenshot, we need to use the Takesscreenshot interface.
+
+
+ To Download Jar File
+ ==================== 
+
+     Appache commons io jar file.
+   
+     commons io 2.4 Jar download.
+
+ Syntax
+ ======
+
+    Webdriver = Interface
+
+       Takesscreenshot (Interface)
+
+ TakesScreenshot t3 = (Takesscreenshot) driver; -> narrowing type casting
+
+ File source = ts.getscreenshotAs(outputType.FILE);
+
+ To store in destination location:
+
+ File destination = new file ("location \\ name.png");
+
+ FileUtils.copyFile(source, destination);
+
+ Type casting
+ ============
+
+  short s = (short) long; //narrowing type casting -> convert a Higher datatype into Lower datatype.
+
+===========================================================================================================
+
+  

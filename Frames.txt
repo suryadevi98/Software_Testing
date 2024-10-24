@@ -1,0 +1,44 @@
+
+ Frame
+ =====
+
+ * Frame is  just like a container where few elements can be grouped.
+
+ * It will have separate html DOM structure within the page.
+
+ * we have to switch to the frame (like window and alert)
+
+ Tagname -> iframe
+
+  driver.switchTo().frame(parameter);
+
+ Parameter can be,
+ ================
+
+  * id or name
+  * index
+  * webelement 
+
+ ParentFrame
+ ===========
+
+   from child frame to parent frame
+   
+   driver.switchTo().parentframe();
+
+ defaultcontent
+ ==============
+
+   driver.switchTo().defaultcontent();
+
+
+
+frame is a container, we can store multiple elements in that container
+
+driver.switchTo.frame(parameter)
+
+driver.switchTo.frame("id or name value");
+
+===============================================================================
+ 
+

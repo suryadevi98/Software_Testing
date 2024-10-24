@@ -1,0 +1,51 @@
+
+WebDriver Methods
+=================
+
+get() - Launch the particular url.
+
+getTitle - to get the current title of the site
+
+getcurrenturl - to get the current url of the site
+
+getpagesource - to get the page source of the site.
+
+manage()
+========
+
+ driver.manage().window().maximize();
+   
+    maximize -> it will maximize the window.
+
+Navigation methods
+===================
+
+ to - it will navigate to the next url.
+ forward - it forward to the next page.
+ back - it back from the current page.
+ refresh - it refresh the site.
+
+ close - it will close the current activate window.
+ quit  - it will terminate the entire browser session.
+      
+      driver.navigate.to();
+
+=======================================================================================
+
+FindElement
+============
+
+ * it will return single webelement.
+ * its return type is webelement.
+ * when the element is not available on the page, findelement method throws a "nosuchelementexception"
+
+FindElements  -- table
+============
+
+ * it interact with multiple webelement
+ * its return type is List<webelement>
+ * when the element is not available on the page, findelemnts method returns an empty List[].
+
+vivo y58
+oppo k12
+
